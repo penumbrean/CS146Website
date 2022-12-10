@@ -1,0 +1,74 @@
+body {
+text-align: center;
+background-color: grey;
+font-size: 3vw
+}
+
+h1   {
+color: black;
+font-size: 4vw;
+}
+
+p    {
+color: blue;
+font-size: 2vw;
+}
+
+img  {
+padding: 30px;
+}
+
+.leftbar {
+  float: left;
+  width: 20%;
+  text-align: center;
+  color: blue;
+}
+
+.leftbar a {
+  background-color: darkgrey;
+  padding: 8px;
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.right
+{
+float: left;
+width: 20%; 
+padding: 12px;
+margin-top: 10px; 
+text-align: center;
+}
+
+.main{
+float:left;
+width: 60%;
+padding: 0 15px;
+
+
+.responsive{ 
+width:80%;
+max-width: 640px;
+height: auto;
+}
+
+#frame{
+border:0px;
+background-attachment: fixed;
+width: 50%; 
+height: auto;
+}
+
+@media only screen and (max-width:620px)
+{
+	#slider-image {max-width: 100%;}
+	.leftbar, .main, .right{ width:100%;}
+}
+@media only screen and (max-width:620px)
+{
+	.responsive
+    {width:100%;}
+}
