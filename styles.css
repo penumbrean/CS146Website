@@ -1,31 +1,31 @@
-body {
-text-align: center;
-background-color: grey;
-font-size: 3vw
+body{
+    text-align: center;
+    background-color: grey;
+    font-size: 3vw;
 }
 
-h1   {
-color: black;
-font-size: 4vw;
+h1{
+    color: black;
+    font-size: 4vw;
 }
 
-p    {
-color: blue;
-font-size: 2vw;
+p{
+    color: blue;
+    font-size: 2vw;
 }
 
-img  {
-padding: 30px;
+img{
+    padding: 30px;
 }
 
-.leftbar {
+.leftbar{
   float: left;
   width: 20%;
   text-align: center;
   color: blue;
 }
 
-.leftbar a {
+.leftbar a{
   background-color: darkgrey;
   padding: 8px;
   margin-top: 8px;
@@ -34,41 +34,107 @@ padding: 30px;
   color: white;
 }
 
-.right
-{
-float: left;
-width: 20%; 
-padding: 12px;
-margin-top: 10px; 
-text-align: center;
+.right{
+    float: left;
+    width: 20%; 
+    padding: 12px;
+    margin-top: 10px; 
+    text-align: center;
 }
 
 .main{
-float:left;
-width: 60%;
-padding: 0 15px;
-
+    float:left;
+    width: 60%;
+    padding: 0 15px;
+}
 
 .responsive{ 
-width:80%;
-max-width: 640px;
-height: auto;
+    width:80%;
+    max-width: 640px;
+    height: auto;
+}
+
+.imageBox1{
+    position: relative;
+    margin: 0 auto;
+    background-image: url("https://external-preview.redd.it/KGYrz6roD3NlwE3eqkUH338WEkn-CZyUB2nNzINV-Bk.jpg?auto=webp&s=6d5a66ed6930929bccdb9ee145bea9532b6036f5");
+    background-repeat: no-repeat;
+    background-size : 100% auto;
+    aspect-ratio: 591 / 800;
+}
+
+.sensoramaText{
+    position: absolute;
+        font-size: min(3vw, 20px);
+    font-weight: bold;
+    color: darkgreen;
+    background-color: rgba(220, 220, 220, 0.90);
+    top: 3%;
+    left: 5%;
+    right: 5%;
+}
+
+.imageBox2{
+    position: relative;
+    margin: 0 auto;
+    background-image: url("https://www.nasa.gov/sites/default/files/styles/800x600_autoletterbox/public/1990_a_new_continent.jpg?itok=5ZEqZK1p");
+    background-repeat: no-repeat;
+    background-size : 100% auto;
+    aspect-ratio: 3 / 2;
+}
+
+.nasaText{
+    position: absolute;
+    font-size: min(3vw, 20px);
+    font-weight: bold;
+    color: darkgreen;
+    background-color: rgba(220, 220, 220, 0.90);
+    top: 3%;
+    left: 5%;
+    right: 5%;
+}
+
+.imageBox3{
+    position: relative;
+    margin: 0 auto;
+    background-image: url("https://i.ytimg.com/vi/dji9YiPZ4AM/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size : 100% auto;
+    aspect-ratio: 16 / 9;
+}
+
+.vr90sText{
+    position: absolute;
+    font-size: min(3vw, 20px);
+    font-weight: bold;
+    color: darkgreen;
+    background-color: rgba(220, 220, 220, 0.90);
+    top: 3%;
+    left: 5%;
+    right: 5%;
+}
+    
+.clickable{
+    cursor: pointer;
+}
+
+.defaultInvis{
+    display: none;
 }
 
 #frame{
-border:0px;
-background-attachment: fixed;
-width: 50%; 
-height: auto;
+    border:0px;
+    background-attachment: fixed;
+    width: 50%; 
+    height: auto;
 }
 
-@media only screen and (max-width:620px)
-{
+@media only screen and (max-width:620px){
 	#slider-image {max-width: 100%;}
 	.leftbar, .main, .right{ width:100%;}
 }
-@media only screen and (max-width:620px)
-{
+
+@media only screen and (max-width:620px){
 	.responsive
     {width:100%;}
 }
