@@ -34,47 +34,40 @@ $(function() {
     });
 });
 
+var p1 = document.getElementsByClassName("pg1");
+var p2 = document.getElementsByClassName("pg2");
+var p3 = document.getElementsByClassName("pg3");
+var p4 = document.getElementsByClassName("pg4");
+
 window.onload = function() {
     page1();
 }
 
 function page1(){
     //1-7
-    document.getElementsByClass("pg1").style.display = "block";
-    document.getElementById("sensorama").style.display ="block";
-    document.getElementsByClass("pg2").style.display = "none";
-    document.getElementById("nasa").style.display ="none";
-    document.getElementsByClass("pg3").style.display = "none";
-    document.getElementById("vr90s").style.display ="none";
-    document.getElementsByClass("pg4").style.display = "none";
+    for(var i = 0; i < p1.length; i++) p1[i].style.display = "block";
+    for(var i = 0; i < p2.length; i++) p2[i].style.display = "none";
+    for(var i = 0; i < p3.length; i++) p3[i].style.display = "none";
+    for(var i = 0; i < p4.length; i++) p4[i].style.display = "none";
 }
 function page2(){
     //8-12
-    document.getElementsByClass("pg1").style.display = "none";
-    document.getElementById("sensorama").style.display ="none";
-    document.getElementsByClass("pg2").style.display = "block";
-    document.getElementById("nasa").style.display ="block";
-    document.getElementsByClass("pg3").style.display = "none";
-    document.getElementById("vr90s").style.display ="none";
-    document.getElementsByClass("pg4").style.display = "none";
+    for(var i = 0; i < p1.length; i++) p1[i].style.display = "none";
+    for(var i = 0; i < p2.length; i++) p2[i].style.display = "block";
+    for(var i = 0; i < p3.length; i++) p3[i].style.display = "none";
+    for(var i = 0; i < p4.length; i++) p4[i].style.display = "none";
 }
 function page3(){
     //13-17
-    document.getElementsByClass("pg1").style.display = "none";
-    document.getElementById("sensorama").style.display ="none";
-    document.getElementsByClass("pg2").style.display = "none";
-    document.getElementById("nasa").style.display ="none";
-    document.getElementsByClass("pg3").style.display = "block";
-    document.getElementById("vr90s").style.display ="block";
-    document.getElementsByClass("pg4").style.display = "none";
+    for(var i = 0; i < p1.length; i++) p1[i].style.display = "none";
+    for(var i = 0; i < p2.length; i++) p2[i].style.display = "none";
+    for(var i = 0; i < p3.length; i++) p3[i].style.display = "block";
+    for(var i = 0; i < p4.length; i++) p4[i].style.display = "none";
 }
 function page4(){
     //18-22
-    document.getElementsByClass("pg1").style.display = "none";
-    document.getElementById("sensorama").style.display ="none";
-    document.getElementsByClass("pg2").style.display = "none";
-    document.getElementById("nasa").style.display ="none";
-    document.getElementsByClass("pg3").style.display = "none";
-    document.getElementById("vr90s").style.display ="none";
-    document.getElementsByClass("pg4").style.display = "block";
+    for(var i = 0; i < p1.length; i++) p1[i].style.display = "none";
+    for(var i = 0; i < p2.length; i++) p2[i].style.display = "none";
+    for(var i = 0; i < p3.length; i++) p3[i].style.display = "none";
+    for(var i = 0; i < p4.length; i++) p4[i].style.display = "block";
 }
