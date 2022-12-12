@@ -46,28 +46,40 @@ window.onload = function() {
 function page1(){
     //1-7
     for(var i = 0; i < p1.length; i++) p1[i].style.display = "block";
+    document.getElementById("sensorama").style.display = "block";
     for(var i = 0; i < p2.length; i++) p2[i].style.display = "none";
+    document.getElementById("nasa").style.display = "none";
     for(var i = 0; i < p3.length; i++) p3[i].style.display = "none";
+    document.getElementById("vr90s").style.display = "none";
     for(var i = 0; i < p4.length; i++) p4[i].style.display = "none";
 }
 function page2(){
     //8-12
     for(var i = 0; i < p1.length; i++) p1[i].style.display = "none";
+    document.getElementById("sensorama").style.display = "none";
     for(var i = 0; i < p2.length; i++) p2[i].style.display = "block";
+    document.getElementById("nasa").style.display = "block";
     for(var i = 0; i < p3.length; i++) p3[i].style.display = "none";
+    document.getElementById("vr90s").style.display = "none";
     for(var i = 0; i < p4.length; i++) p4[i].style.display = "none";
 }
 function page3(){
     //13-17
     for(var i = 0; i < p1.length; i++) p1[i].style.display = "none";
+    document.getElementById("sensorama").style.display = "none";
     for(var i = 0; i < p2.length; i++) p2[i].style.display = "none";
+    document.getElementById("nasa").style.display = "none";
     for(var i = 0; i < p3.length; i++) p3[i].style.display = "block";
+    document.getElementById("vr90s").style.display = "block";
     for(var i = 0; i < p4.length; i++) p4[i].style.display = "none";
 }
 function page4(){
     //18-22
     for(var i = 0; i < p1.length; i++) p1[i].style.display = "none";
+    document.getElementById("sensorama").style.display = "none";
     for(var i = 0; i < p2.length; i++) p2[i].style.display = "none";
+    document.getElementById("nasa").style.display = "none";
     for(var i = 0; i < p3.length; i++) p3[i].style.display = "none";
+    document.getElementById("vr90s").style.display = "none";
     for(var i = 0; i < p4.length; i++) p4[i].style.display = "block";
 }
