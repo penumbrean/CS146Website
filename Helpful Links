@@ -1,14 +1,46 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-<title> Helpful Links </title> 
-</head> 
-<body> 
-<header> <h1> Helpful Links </h1> 
-</header> 
-<br><br> 
-<div class="flex-container"> 
-  <div> 
-    <img src="https://teslasuit.io/wp-content/uploads/TITLE-TS-and-TG_03-1.jpg" alt="haptic suit"><br> 
-     
-  </div> 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Helpful Links</title>
+</head>
+<body>
+<h1 id="welcome">Helpful Links</h1>
+  <br> 
+  <div class="flex-container">
+     <div>
+       <img class="linkimg" src="https://teslasuit.io/wp-content/uploads/TITLE-TS-and-TG_03-1.jpg" alt="haptic suit">
+       <br>
+       <a href="https://en.wikipedia.org/wiki/Haptic_suit">  Learn about Haptic Suits</a>
+    </div>
+    <div>
+       <img class="linkimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4E0XeH6TvdQGJ_6VdVDHR5d2jPWtGTPG1oA&usqp=CAU" alt="metaverse">
+      <br><br>
+      <a href="https://en.wikipedia.org/wiki/Metaverse"> Learn about the Metaverse</a>
+    </div>
+    <div>
+      <img class="linkimg" src="https://i0.wp.com/www.vrfitnessinsider.com/wp-content/uploads/2017/11/1-k7g718nKSilZWNwECLceaw.jpeg?fit=1000%2C535&ssl=1">
+      <br><br>
+      <a href="https://en.wikipedia.org/wiki/Immersion_(virtual_reality)#Technology"> Learn about Immersion</a>
+    </div>
+  </div>
+  <br>
+  <div class="flex-container">
+    <div>
+      <img class="linkimg" src="https://imageio.forbes.com/specials-images/dam/imageserve/1126094461/960x0.jpg?format=jpg&width=960" alt="augmented">
+      <br>
+      <a href="https://en.wikipedia.org/wiki/Augmented_reality"> Learn about AR</a>
+    </div>
+    <div>
+      <img class="linkimg" src="https://cc-prod.scene7.com/is/image/CCProdAuthor/MR_MSHoloLens_CommercialPillar-1?$png$&jpegSize=200&wid=1281" alt="mixed">
+      <br> <br>
+      <a href="https://en.wikipedia.org/wiki/Mixed_reality"> Learn about Mixed Reality</a>
+    </div>
+    <div>
+      <img class="linkimg" src="https://i0.wp.com/vrscout.com/wp-content/uploads/2022/01/VIMS.jpg?fit=810%2C461&ssl=1" alt="VR sickness">
+      <br><br>
+      <a href="https://en.wikipedia.org/wiki/Virtual_reality_sickness"> Learn about VR Sickness</a>     
+    </div>
+  </div>
+
+</body>
+</html>
