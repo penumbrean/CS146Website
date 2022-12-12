@@ -40,41 +40,41 @@ window.onload = function() {
 
 function page1(){
     //1-7
-    document.getElementsByClass("pg1").style.display = "block";
+    x =document.getElementsByClassName("pg1").style.display = "block";
     document.getElementById("sensorama").style.display ="block";
-    document.getElementsByClass("pg2").style.display = "none";
+    y =document.getElementsByClassName("pg2").style.display = "none";
     document.getElementById("nasa").style.display ="none";
-    document.getElementsByClass("pg3").style.display = "none";
+    z =document.getElementsByClassName("pg3").style.display = "none";
     document.getElementById("vr90s").style.display ="none";
-    document.getElementsByClass("pg4").style.display = "none";
+    w =document.getElementsByClassName("pg4").style.display = "none";
 }
 function page2(){
     //8-12
-    document.getElementsByClass("pg1").style.display = "none";
+    x =document.getElementsByClassName("pg1").style.display = "none";
     document.getElementById("sensorama").style.display ="none";
-    document.getElementsByClass("pg2").style.display = "block";
+    y =document.getElementsByClassName("pg2").style.display = "block";
     document.getElementById("nasa").style.display ="block";
-    document.getElementsByClass("pg3").style.display = "none";
+    z =document.getElementsByClassName("pg3").style.display = "none";
     document.getElementById("vr90s").style.display ="none";
-    document.getElementsByClass("pg4").style.display = "none";
+    w =document.getElementsByClassName("pg4").style.display = "none";
 }
 function page3(){
     //13-17
-    document.getElementsByClass("pg1").style.display = "none";
+    x =document.getElementsByClassName("pg1").style.display = "none";
     document.getElementById("sensorama").style.display ="none";
-    document.getElementsByClass("pg2").style.display = "none";
+    y =document.getElementsByClassName("pg2").style.display = "none";
     document.getElementById("nasa").style.display ="none";
-    document.getElementsByClass("pg3").style.display = "block";
+    z =document.getElementsByClassName("pg3").style.display = "block";
     document.getElementById("vr90s").style.display ="block";
-    document.getElementsByClass("pg4").style.display = "none";
+    w =document.getElementsByClassName("pg4").style.display = "none";
 }
 function page4(){
     //18-22
-    document.getElementsByClass("pg1").style.display = "none";
+    x =document.getElementsByClassName("pg1").style.display = "none";
     document.getElementById("sensorama").style.display ="none";
-    document.getElementsByClass("pg2").style.display = "none";
+    y =document.getElementsByClassName("pg2").style.display = "none";
     document.getElementById("nasa").style.display ="none";
-    document.getElementsByClass("pg3").style.display = "none";
+    z =document.getElementsByClassName("pg3").style.display = "none";
     document.getElementById("vr90s").style.display ="none";
-    document.getElementsByClass("pg4").style.display = "block";
+    w =document.getElementsByClassName("pg4").style.display = "block";
 }
