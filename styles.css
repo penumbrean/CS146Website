@@ -132,6 +132,7 @@ img{
 
 .defaultInvis{
     display: none;
+    text-align: center;
 }
 
 .tabs{
