@@ -5,24 +5,20 @@
 <button id="myBtn">The Evolution of Virtual Reality</button>
 
 <script>
-document.getElementById("myBtn").addEventListener("click", function() {
-  alert("Welcome!");
-});
+var x = document.getElementById("myBtn");
+x.addEventListener("click", myFunction);
+x.addEventListener("click", someOtherFunction);
+
+function myFunction() {
+  alert ("Welcome!");
+}
+
+function someOtherFunction() {
+  alert ("Our Website will introduce you to the Wonders of VR!");
+}
 </script>
 
 </body>
 </html>
 
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.btn {
-  border: none;
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-}
 
