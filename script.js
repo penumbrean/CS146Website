@@ -34,6 +34,10 @@ $(function() {
     });
 });
 
+window.onload = function() {
+    page1();
+}
+
 function page1(){
     //1-7
     document.getElementById("1").style.display = "block";
@@ -59,7 +63,6 @@ function page1(){
     document.getElementById("21").style.display ="none";
     document.getElementById("22").style.display ="none";
 }
-Window.onload=page1();
 function page2(){
     //8-12
     document.getElementById("1").style.display = "none";
