@@ -1,12 +1,25 @@
 body{
-    text-align: center;
     background-color: grey;
-    font-size: 3vw;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+  text-align: center;
+  font-size: 6vw;
+}
+h2{
+  text-align: center;
+  font-size: 5vw;
+}
+image{
+  width:80%
+  margin: auto;
 }
 
-h1{
+header{
     color: black;
     font-size: 4vw;
+  text-align: center; 
 }
 
 p{
@@ -15,38 +28,28 @@ p{
 }
 
 img{
-    padding: 30px;
+    padding: 3vw;
+}
+
+.flex-container{
+  display: flex; 
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: DarkGrey; 
+  margin: 1vw;
+  padding: .5vw;
+  font-size: 3vw;
 }
 
 .leftbar{
-  float: left;
   width: 20%;
   text-align: center;
   color: blue;
 }
 
-.leftbar a{
-  background-color: darkgrey;
-  padding: 8px;
-  margin-top: 8px;
-  display: block;
-  width: 100%;
-  color: white;
-}
 
-.right{
-    float: left;
-    width: 20%; 
-    padding: 12px;
-    margin-top: 10px; 
-    text-align: center;
-}
-
-.main{
-    float:left;
-    width: 60%;
-    padding: 0 15px;
-}
 
 .responsive{ 
     width:80%;
@@ -131,7 +134,6 @@ img{
 
 @media only screen and (max-width:620px){
 	#slider-image {max-width: 100%;}
-	.leftbar, .main, .right{ width:100%;}
 }
 
 @media only screen and (max-width:620px){
