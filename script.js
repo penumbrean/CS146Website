@@ -71,3 +71,28 @@ function page4(){
     for(var i = 0; i < p3.length; i++) p3[i].style.display = "none";
     for(var i = 0; i < p4.length; i++) p4[i].style.display = "block";
 }
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="myBtn">The Evolution of Virtual Reality</button>
+
+<script>
+var x = document.getElementById("myBtn");
+x.addEventListener("click", myFunction);
+x.addEventListener("click", someOtherFunction);
+
+function myFunction() {
+  alert ("Welcome!");
+}
+
+function someOtherFunction() {
+  alert ("Our Website will introduce you to the Wonders of VR!");
+}
+</script>
+
+</body>
+</html>
+
+
