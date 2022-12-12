@@ -59,7 +59,7 @@ function page1(){
     document.getElementById("21").style.visibility ="hidden";
     document.getElementById("22").style.visibility ="hidden";
 }
-
+Window.onload=page1();
 function page2(){
     //8-12
     document.getElementById("1").style.visibility = "hidden";
