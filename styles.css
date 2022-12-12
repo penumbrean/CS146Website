@@ -34,9 +34,15 @@ img{
     padding: 3vw;
 }
 
+.linkimg{
+ width: max(20vw, 360px);
+}
+
 .flex-container{
   display: flex; 
-  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
+  max-width: 90%;
 }
 
 .flex-container > div {
