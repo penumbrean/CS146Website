@@ -158,10 +158,11 @@ img{
 
 @media only screen and (max-width:620px){
 	#slider-image {max-width: 100%;}
-	.responsive{width;100%}
+  .responsive{width:100%}
+  .linkimg{max-width: 75%}
 }
 
 @media only screen and (max-width:480px){
-.responsive {width:80%;}
-	#slider-image {max-width: 80%;}
+	.responsive{width:100%;}
+  .linkimg{max-width: 75%}
 }
