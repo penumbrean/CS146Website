@@ -9,6 +9,14 @@ $(function() {
         $("#wwa2").fadeToggle();
     });
     
+    $("#name3").click(function() {
+        $("#wwa3").fadeToggle();
+    });
+    
+    $("#name4").click(function() {
+        $("#wwa4").fadeToggle();
+    });
+    
     $("#sensorama").hover(function () {
         $(".sensoramaText").fadeToggle();
         $(".sensoramaText").text("The syn-aesthetic, immersive machine developed by Heilig in 1962 widened the Expanded Cinema to a theater of total illusion, which Heilig called the «experience theater.»"); 
