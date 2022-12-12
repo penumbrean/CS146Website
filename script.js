@@ -40,101 +40,41 @@ window.onload = function() {
 
 function page1(){
     //1-7
-    document.getElementById("1").style.display = "block";
-    document.getElementById("2").style.display ="block";
+    document.getElementsByClass("pg1").style.display = "block";
     document.getElementById("sensorama").style.display ="block";
-    document.getElementById("4").style.display ="block";
-    document.getElementById("5").style.display ="block";
-    document.getElementById("6").style.display ="block";
-    document.getElementById("7").style.display ="block";
-    document.getElementById("8").style.display ="none";
+    document.getElementsByClass("pg2").style.display = "none";
     document.getElementById("nasa").style.display ="none";
-    document.getElementById("10").style.display ="none";
-    document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display ="none";
-    document.getElementById("13").style.display ="none";
-    document.getElementById("14").style.display ="none";
+    document.getElementsByClass("pg3").style.display = "none";
     document.getElementById("vr90s").style.display ="none";
-    document.getElementById("16").style.display ="none";
-    document.getElementById("17").style.display ="none";
-    document.getElementById("18").style.display ="none";
-    document.getElementById("19").style.display ="none";
-    document.getElementById("20").style.display ="none";
-    document.getElementById("21").style.display ="none";
-    document.getElementById("22").style.display ="none";
+    document.getElementsByClass("pg4").style.display = "none";
 }
 function page2(){
     //8-12
-    document.getElementById("1").style.display = "none";
-    document.getElementById("2").style.display ="none";
+    document.getElementsByClass("pg1").style.display = "none";
     document.getElementById("sensorama").style.display ="none";
-    document.getElementById("4").style.display ="none";
-    document.getElementById("5").style.display ="none";
-    document.getElementById("6").style.display ="none";
-    document.getElementById("7").style.display ="none";
-    document.getElementById("8").style.display ="block";
+    document.getElementsByClass("pg2").style.display = "block";
     document.getElementById("nasa").style.display ="block";
-    document.getElementById("10").style.display ="block";
-    document.getElementById("11").style.display = "block";
-    document.getElementById("12").style.display ="block";
-    document.getElementById("13").style.display ="none";
-    document.getElementById("14").style.display ="none";
+    document.getElementsByClass("pg3").style.display = "none";
     document.getElementById("vr90s").style.display ="none";
-    document.getElementById("16").style.display ="none";
-    document.getElementById("17").style.display ="none";
-    document.getElementById("18").style.display ="none";
-    document.getElementById("19").style.display ="none";
-    document.getElementById("20").style.display ="none";
-    document.getElementById("21").style.display ="none";
-    document.getElementById("22").style.display ="none";
+    document.getElementsByClass("pg4").style.display = "none";
 }
 function page3(){
     //13-17
-    document.getElementById("1").style.display = "none";
-    document.getElementById("2").style.display ="none";
+    document.getElementsByClass("pg1").style.display = "none";
     document.getElementById("sensorama").style.display ="none";
-    document.getElementById("4").style.display ="none";
-    document.getElementById("5").style.display ="none";
-    document.getElementById("6").style.display ="none";
-    document.getElementById("7").style.display ="none";
-    document.getElementById("8").style.display ="none";
+    document.getElementsByClass("pg2").style.display = "none";
     document.getElementById("nasa").style.display ="none";
-    document.getElementById("10").style.display ="none";
-    document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display ="none";
-    document.getElementById("13").style.display ="block";
-    document.getElementById("14").style.display ="block";
+    document.getElementsByClass("pg3").style.display = "block";
     document.getElementById("vr90s").style.display ="block";
-    document.getElementById("16").style.display ="block";
-    document.getElementById("17").style.display ="block";
-    document.getElementById("18").style.display ="none";
-    document.getElementById("19").style.display ="none";
-    document.getElementById("20").style.display ="none";
-    document.getElementById("21").style.display ="none";
-    document.getElementById("22").style.display ="none";
+    document.getElementsByClass("pg4").style.display = "none";
 }
 function page4(){
     //18-22
-    document.getElementById("1").style.display = "none";
-    document.getElementById("2").style.display ="none";
+    document.getElementsByClass("pg1").style.display = "none";
     document.getElementById("sensorama").style.display ="none";
-    document.getElementById("4").style.display ="none";
-    document.getElementById("5").style.display ="none";
-    document.getElementById("6").style.display ="none";
-    document.getElementById("7").style.display ="none";
-    document.getElementById("8").style.display ="none";
+    document.getElementsByClass("pg2").style.display = "none";
     document.getElementById("nasa").style.display ="none";
-    document.getElementById("10").style.display ="none";
-    document.getElementById("11").style.display = "none";
-    document.getElementById("12").style.display ="none";
-    document.getElementById("13").style.display ="none";
-    document.getElementById("14").style.display ="none";
+    document.getElementsByClass("pg3").style.display = "none";
     document.getElementById("vr90s").style.display ="none";
-    document.getElementById("16").style.display ="none";
-    document.getElementById("17").style.display ="none";
-    document.getElementById("18").style.display ="none";
-    document.getElementById("19").style.display ="block";
-    document.getElementById("20").style.display ="block";
-    document.getElementById("21").style.display ="block";
-    document.getElementById("22").style.display ="block";
+    document.getElementsByClass("pg4").style.display = "block";
 }
