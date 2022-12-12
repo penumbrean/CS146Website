@@ -125,6 +125,21 @@ img{
     display: none;
 }
 
+.tabs{
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;	
+}
+.tabs:hover{
+	background-color: #777;	
+}
+
 #frame{
     border:0px;
     background-attachment: fixed;
